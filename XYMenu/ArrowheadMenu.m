@@ -128,7 +128,7 @@
 #pragma mark- 默认风格创建菜单
 - (instancetype)initDefaultArrowheadMenuWithTitle:(NSArray<NSString *> *)titleArray icon:(NSArray<NSString *> *)iconArray menuPlacements:(MenuPlacements)placements {
 
-    return [self initCustomArrowheadMenuWithTitle:titleArray icon:iconArray menuUnitSize:CGSizeMake([UIScreen mainScreen].bounds.size.width/3, 38) menuFont:[UIFont fontWithName:@"Helvetica" size:14.f] menuFontColor:kLabel102Color menuBackColor:kLabel244Color menuSegmentingLineColor:[UIColor colorWithRed:192/255.f green:196/255.f blue:201/255.f alpha:1] distanceFromTriggerSwitch:0 menuArrowStyle:MenuArrowStyleTriangle menuPlacements:placements showAnimationEffects:ShowAnimationZoom];
+    return [self initCustomArrowheadMenuWithTitle:titleArray icon:iconArray menuUnitSize:CGSizeMake([UIScreen mainScreen].bounds.size.width/3, 38) menuFont:[UIFont fontWithName:@"Helvetica" size:14.f] menuFontColor:[UIColor colorWithRed:192/255.f green:196/255.f blue:201/255.f alpha:1] menuBackColor:kLabel244Color menuSegmentingLineColor:[UIColor colorWithRed:192/255.f green:196/255.f blue:201/255.f alpha:1] distanceFromTriggerSwitch:0 menuArrowStyle:MenuArrowStyleTriangle menuPlacements:placements showAnimationEffects:ShowAnimationZoom];
 }
 
 #pragma mark- 自定义风格创建菜单
